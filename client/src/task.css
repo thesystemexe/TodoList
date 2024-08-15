@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #9e78cf;
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-input {
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 280px;
+  border: 1px solid #3e1671;
+  border-radius: 7px;
+  background-color: #0d0714;
+  caret-color: #8c4fe0;
+  color: #777777;
+  font-family: "Comic neue";
+  font-weight: 900;
+  font-size: 13px;
+}
+
+.task-input ::placeholder {
+}
+
+.task-input:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #8c4fe0;
+}
+
+.input-div {
+  display: flex;
+  align-items: center;
+}
+
+.add-icon {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  margin-top: 2px;
+}
+
+.totalTask-head {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.taskList {
+  background-color: #15101c;
+  margin-bottom: 15px;
+  width: 400px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.tasks {
+  width: 300px;
+  display: inline-block;
+  padding: 7px;
+  margin-left: 2px;
+  color: #9e78cf;
+  font-weight: 600;
+}
+
+.done-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.done-btn .done-icon {
+  font-size: 24px; /* Adjust icon size as needed */
+  color: #9e78cf; /* Inherit color from parent */
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+  margin-left: 20px;
+}
+
+.delete-btn .delete-icon {
+  font-size: 24px;
+  color: #9e78cf;
+}
